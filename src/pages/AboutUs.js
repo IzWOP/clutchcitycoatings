@@ -1,6 +1,5 @@
 import React from 'react'
 import SEO from "../common/SEO";
-import HeaderTopNews from '../common/header/HeaderTopNews';
 import HeaderOne from '../common/header/HeaderOne';
 import FooterFour from '../common/footer/FooterFour';
 import BrandThree from '../elements/brand/BrandThree';
@@ -17,7 +16,6 @@ const AboutUs = () => {
         <>
             <SEO title="About Us" />
             <main className="page-wrapper">
-                <HeaderTopNews />
                 <HeaderOne btnStyle="btn-small round btn-icon" HeaderSTyle="header-transparent" />
 
                 {/* Start Slider Area  */}

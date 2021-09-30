@@ -4,7 +4,6 @@ import {Link} from "react-router-dom";
 import { FiArrowRight, FiCheck } from "react-icons/fi";
 
 import HeaderOne from '../common/header/HeaderOne';
-import HeaderTopNews from '../common/header/HeaderTopNews';
 import FooterTwo from '../common/footer/FooterTwo';
 import Copyright from '../common/footer/Copyright';
 
@@ -23,7 +22,6 @@ const Company = () => {
         <>
             <SEO title="Company" />
             <main className="page-wrapper">
-                <HeaderTopNews />
                 <HeaderOne btnStyle="btn-small round btn-icon" HeaderSTyle="header-not-transparent" />
 
                 {/* Start Slider Area  */}
@@ -32,12 +30,12 @@ const Company = () => {
                         <div className="row align-items-center">
                             <div className="col-lg-7 col-xl-6 order-2 order-lg-1 mt_md--40 mt_sm--40">
                                 <div className="inner text-left">
-                                    <span className="subtitle">DIGITAL CONSULTING AGENCY</span>
-                                    <h1 className="title theme-gradient display-one">Doob Company.</h1>
+                                    <span className="subtitle">Clutch City Coatings</span>
+                                    <h1 className="title theme-gradient display-one">Powder Coaters</h1>
                                     <ul className="list-icon">
-                                        <li><span className="icon"><FiCheck /></span> Track your teams progress with mobile app.</li>
-                                        <li><span className="icon"><FiCheck /></span> Lorem ipsum dolor sit amet consectetur adipisicing.</li>
-                                        <li><span className="icon"><FiCheck /></span> Your teams progress with mobile app.</li>
+                                        <li><span className="icon"><FiCheck /></span> Top of the line paints</li>
+                                        <li><span className="icon"><FiCheck /></span> Attention to each detail</li>
+                                        <li><span className="icon"><FiCheck /></span> Quick turn over time.</li>
                                     </ul>
                                     <div className="button-group mt--40">
                                         <a className="btn-default btn-medium round btn-icon" target="_blank" href="https://themeforest.net/checkout/from_item/33571911?license=regular">Purchase Now <i className="icon"><FiArrowRight /></i></a>
